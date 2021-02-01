@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "typeRoots": [
+      "node_modules/@types",
+      // "src/typings"
+    ],
+    "lib": ["esnext", "DOM"],
+  },
+  "include": [
+    "src/**/*"
+  ],
+    "exclude": [
+      "node_modules",
+      "**/*.spec.ts"
+    ]
+}
