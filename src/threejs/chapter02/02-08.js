@@ -1,4 +1,9 @@
-function init() {
+import * as THREE from 'three';
+import dat from 'dat.gui'
+import { initStats2 as initStats, initTrackballControls } from '../../utils'
+import { SceneUtils } from 'three/examples/jsm/utils/SceneUtils'
+
+export default function init() {
 
   var stats = initStats();
 
